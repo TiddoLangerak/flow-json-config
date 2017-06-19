@@ -1,0 +1,25 @@
+{
+  "name": "examples",
+  "version": "1.0.0",
+  "description": "Example config",
+  "author": "Tiddo Langerak <tiddolangerak@gmail.com> (https://github.com/TiddoLangerak/)",
+  "license": "MIT",
+  "flow" : {
+    "ignore" : [
+      ".*/node_modules/.*"
+    ],
+    "include" : [
+      "src",
+      "lib"
+    ],
+    "libs" : [
+      "lib-types"
+    ],
+    "options" : {
+      "unsafe" : {
+        "enable_getters_and_setters" : true
+      },
+      "module.file_ext" : "js"
+    }
+  }
+}
