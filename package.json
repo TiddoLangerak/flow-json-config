@@ -1,10 +1,10 @@
 {
   "name": "@tiddo/flow-json-config",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility to create a .flowconfig from a json file",
   "main": "index.js",
-  "bin" : {
-    "flow-json-config" : "./index.js"
+  "bin": {
+    "flow-json-config": "./index.js"
   },
   "directories": {
     "example": "examples"
