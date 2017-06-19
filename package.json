@@ -1,0 +1,22 @@
+{
+  "name": "@tiddo/flow-json-config",
+  "version": "1.0.0",
+  "description": "Utility to create a .flowconfig from a json file",
+  "main": "index.js",
+  "bin" : {
+    "flow-json-config" : "./index.js"
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TiddoLangerak/flow-json-config.git"
+  },
+  "author": "Tiddo Langerak <tiddolangerak@gmail.com> (https://github.com/TiddoLangerak/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TiddoLangerak/flow-json-config/issues"
+  },
+  "homepage": "https://github.com/TiddoLangerak/flow-json-config#readme"
+}

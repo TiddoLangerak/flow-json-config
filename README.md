@@ -1,5 +1,11 @@
 Utility that transforms a JSON object into a flowconfig file.
 
+
+## Install
+```
+npm install -g @tiddo/flow-json-config
+```
+
 ## Usage:
 
 ```
@@ -30,3 +36,6 @@ flow-json-config package.json [configPath] > .flowconfig
 ```
 
 See the [examples](examples) folder for full examples.
+
+## On npm
+[@tiddo/flow-json-config](https://www.npmjs.com/package/@tiddo/flow-json-config)
